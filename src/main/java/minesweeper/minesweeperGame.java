@@ -89,10 +89,11 @@ public class minesweeperGame {
     }
 
     public String getGameTime(LocalTime startTime, LocalTime stopTime) {
-        long minutes = ChronoUnit.MINUTES.between(startTime, stopTime);
         long seconds = ChronoUnit.SECONDS.between(startTime, stopTime);
+        long gametimeMinutes = seconds / 60;
+        long gametimeSeconds = seconds % 60;
         
-        this.gameTime = minutes + ":" + seconds;
+        this.gameTime = gametimeMinutes + ":" + gametimeSeconds;
 
         return this.gameTime;
     }
