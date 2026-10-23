@@ -16,7 +16,7 @@ To run the game, see [Setup and Installation](#setup-and-installation) and [Runn
 **Starting page**
 When the application opens, you are asked to enter a name and choose a difficulty level. If either field is empty, a warning popup tells you that all fields must be filled in.
 
-![Start page with name field and difficulty selector](image.png)
+![Start page with name field and difficulty selector](docs/images/start-page.png)
 
 | Difficulty | Grid size | Bombs |
 |---|---|---|
@@ -27,9 +27,9 @@ When the application opens, you are asked to enter a name and choose a difficult
 **Gameplay**
 Starting a game opens a new window showing the title, the difficulty, and the grid of tiles. As in the traditional game, you win by opening all safe tiles, and you lose if you open a tile containing a bomb.
 
-![Game window for the easy difficulty](image-1.png)
-![Game window for the medium difficulty](image-2.png)
-![Game window for the hard difficulty](image-3.png)
+![Game window for the easy difficulty](docs/images/game-easy.png)
+![Game window for the medium difficulty](docs/images/game-medium.png)
+![Game window for the hard difficulty](docs/images/game-hard.png)
 
 **Differences from the original game:**
 
@@ -39,8 +39,8 @@ Starting a game opens a new window showing the title, the difficulty, and the gr
 **End screen**
 The title depends on the result: you are either congratulated or told the game is over. The screen also shows a leaderboard of all saved results from previous games. From here you can clear the leaderboard or start a new game.
 
-![End screen after losing](image-4.png)
-![End screen after winning](image-5.png)
+![End screen after losing](docs/images/end-screen-loss.png)
+![End screen after winning](docs/images/end-screen-win.png)
 
 ## Requirements
 
